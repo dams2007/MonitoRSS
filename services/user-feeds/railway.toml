@@ -1,0 +1,7 @@
+[build]
+command = "npm install && npm run build"
+watchPaths = ["services/user-feeds"]
+
+[start]
+command = "node dist/main.js"
+cwd = "services/user-feeds"
